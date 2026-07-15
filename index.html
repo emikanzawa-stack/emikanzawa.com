@@ -305,55 +305,6 @@
     border-radius: 2px;
   }
 
-  .writing-list { display: flex; flex-direction: column; }
-
-  .writing-item {
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    gap: 0.35rem;
-    padding: 1.75rem 2.5rem 1.75rem 0;
-    border-top: 0.5px solid var(--rule);
-    text-decoration: none;
-    color: var(--ink);
-    transition: color 0.2s;
-  }
-  .writing-item:last-child { border-bottom: 0.5px solid var(--rule); }
-  .writing-item:hover .writing-item-title { color: var(--accent); }
-
-  .writing-item-date {
-    font-size: 0.75rem;
-    letter-spacing: 0.12em;
-    text-transform: uppercase;
-    color: var(--ink-light);
-  }
-
-  .writing-item-title {
-    font-family: var(--serif);
-    font-size: 1.35rem;
-    font-weight: 400;
-    line-height: 1.4;
-    transition: color 0.2s;
-  }
-
-  .writing-item-sub {
-    font-size: 0.85rem;
-    color: var(--ink-mid);
-  }
-
-  .writing-item-arrow {
-    position: absolute;
-    right: 0.25rem;
-    top: 50%;
-    transform: translateY(-50%);
-    color: var(--ink-light);
-    transition: color 0.2s, transform 0.2s;
-  }
-  .writing-item:hover .writing-item-arrow {
-    color: var(--accent);
-    transform: translateY(-50%) translateX(4px);
-  }
-
   /* CONTACT */
   #contact {}
 
@@ -587,13 +538,8 @@
 <section id="writing">
   <p class="section-label">Writing</p>
   <p class="writing-intro">Occasional thoughts on people, organizations, and the mechanics of change. More to come.</p>
-  <div class="writing-list">
-    <a href="writing/organizational-culture-change.html" class="writing-item">
-      <span class="writing-item-date">July 2026</span>
-      <span class="writing-item-title">On Organizational Culture Change — From My Experience at Amazon and Panasonic</span>
-      <span class="writing-item-sub">組織カルチャー変革について　ーAmazonとPanasonicの経験から</span>
-      <span class="writing-item-arrow">→</span>
-    </a>
+  <div class="writing-placeholder">
+    Essays and notes — coming soon
   </div>
 </section>
 
